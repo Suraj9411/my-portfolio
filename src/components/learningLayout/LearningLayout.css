@@ -1,0 +1,109 @@
+#learnings{
+    overflow: hidden;
+    min-height: calc(100vh - 9rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.learningLayoutVideo{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learningsVideo{
+    height: 100%;
+    width: 37vw;
+    margin: 0.5rem;
+}
+
+.learningDate{
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learningVideoDesc{
+    width: 100vw;
+    padding: 0 1rem;
+    font-weight: 300;
+}
+
+@media screen and (min-width:586px) and (max-width: 768px) {
+    .learningLayoutVideo{
+        height: 20rem;
+        width: 100vw;
+        
+    }
+
+    .learningsVideo{
+        height: 100%;
+        width: 75vw;
+    }
+
+    .learningTitle{
+        font-size: 3rem;
+    }
+    .learningDate{
+        font-size: 1.5rem;
+    }
+    .learningVideoDesc{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    .learningLayoutVideo{
+        height: 27rem;
+        width: 100vw;
+        
+    }
+
+    .learningsVideo{
+        height: 100%;
+        width: 75vw;
+    }
+
+    .learningTitle{
+        font-size: 4rem;
+    }
+    .learningDate{
+        font-size: 2rem;
+    }
+    .learningVideoDesc{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:585px) {
+
+    .learningLayoutVideo{
+        width: 100vw;
+        padding: 0.5rem;
+        margin-bottom: -3rem;
+    }
+    .learningsVideo{
+        height: 13rem;
+        width: 100vw;
+    }
+
+    .learningTitle{
+        font-size: 2.5rem;
+    }
+    .learningDate{
+        font-size: 1.1rem;
+    }
+    .learningVideoDesc{
+        font-size: 1rem;
+    }
+}

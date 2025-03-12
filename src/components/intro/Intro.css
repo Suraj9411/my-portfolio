@@ -14,6 +14,7 @@
     z-index: -1;
     object-fit: cover;
     height: 100vh;
+    padding: 4rem 0 0 2rem;
 }
 
 .introContent{
@@ -43,11 +44,20 @@
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     background: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: yellow;
 }
 
 .btnImg {
@@ -58,7 +68,7 @@
 
 @media screen and (max-width:840px) {
     .bg{
-        right:-10vw;
+        right:-20vw;
     }
     .introContent{
         font-size: 10vw;
@@ -70,7 +80,8 @@
 }
 @media screen and (max-width:480px) {
     .bg{
-        right:-20vw;
+        right:-40vw;
+        padding: 4rem 0 0 4rem;
     }
     
 }
